@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS links -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Grid & Flex</title>
+  </head>
+  <body>
+    <h1 class="h1 text-center text-success mb-3">Grid and flex practice</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <div class="box text-center">
+            one of three
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="box text-center">
+            one of three
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="box text-center">
+            one of three
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h1 class="h1 text-primary text-center">Auto layout columns</h1>
+      <h2 class="h2 text-warning text-center">equal width</h2>
+      <div class="row">
+        <div class="col">
+          <div class="box text-center">1 of 2</div>
+        </div>
+        <div class="col">
+          <div class="box text-center">2 of 2</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="box text-center">1 of 3</div>
+        </div>
+        <div class="col">
+          <div class="box text-center">2 of 3</div>
+        </div>
+        <div class="col">
+          <div class="box text-center">3 of 3</div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h2 class="h2 text-secondary text-center">equal width multiline</h2>
+      <div class="row">
+        <div class="col-md">
+          <div class="box text-center">col</div>
+        </div>
+        <div class="col-md">
+          <div class="box text-center">col</div>
+        </div>
+        <div class="w-100"></div>
+        <div class="col-md">
+          <div class="box text-center">col</div>
+        </div>
+        <div class="col-md">
+          <div class="box text-center">col</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- setting one column width start -->
+    <section>
+      <div class="container">
+        <h2 class="h2 text-danger text-center">Setting one column width</h2>
+        <div class="row">
+          <div class="col-md">
+            <div class="box text-center">1 of 3</div>
+          </div>
+          <div class="col-md-6">
+            <div class="box text-center">2 of 3(wider)</div>
+          </div>
+          <div class="col-md">
+            <div class="box text-center">3 of 3</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md">
+            <div class="box text-center">1 of 3</div>
+          </div>
+          <div class="col-md-5">
+            <div class="box text-center">2 of 3(wider)</div>
+          </div>
+          <div class="col-md">
+            <div class="box text-center">3 of 3</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- setting one column width end -->
+
+    <!-- veriable width content start -->
+    <section>
+      <div class="container">
+        <h2 class="h2 text-warning text-center">Variable width content</h2>
+        <div class="row justify-content-center">
+          <div class="col col-lg-2">
+            <div class="box text-center">1 of 3</div>
+          </div>
+          <div class="col-md-auto">
+            <div class="box text-center">Variable width content</div>
+          </div>
+          <div class="col col-lg-2">
+            <div class="box text-center">1 of 3</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="box text-center">1 of 3</div>
+          </div>
+          <div class="col-md-auto">
+            <div class="box text-center">veriable width content</div>
+          </div>
+          <div class="col-lg-2">
+            <div class="box text-center">3 of 3</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- veriable width content end -->
+
+    <!-- responsive classes start -->
+    <!-- all breakpoints start -->
+    <section>
+      <div class="container">
+        <h1 class="h1 text-primary text-center">Responsive classes</h1>
+        <h2 class="h2 text-warning text-center">All breakpoints</h2>
+        <div class="row">
+          <div class="col">
+            <div class="box text-center">col</div>
+          </div>
+          <div class="col">
+            <div class="box text-center">col</div>
+          </div>
+          <div class="col">
+            <div class="box text-center">col</div>
+          </div>
+          <div class="col">
+            <div class="box text-center">col</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-8">
+            <div class="box text-center">col-8</div>
+          </div>
+          <div class="col-4">
+            <div class="box text-center">col-4</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- all breakpoints end -->
+
+    <!-- stacked to horizontal start -->
+    <section>
+      <div class="container">
+        <h2 class="h2 text-danger text-center">Stacked to horizontal</h2>
+        <div class="row">
+          <div class="col-sm-8">
+            <div class="box text-center">col-sm-8</div>
+          </div>
+          <div class="col-sm-4">
+            <div class="box text-center">col-sm-4</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm">
+            <div class="box text-center">col-sm</div>
+          </div>
+          <div class="col-sm">
+            <div class="box text-center">col-sm</div>
+          </div>
+          <div class="col-sm">
+            <div class="box text-center">col-sm</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- stacked to horizontal end -->
+
+    <!-- mix and match start -->
+    <section>
+      <div class="container">
+        <h2 class="h2 text-secondary text-center">Mix and match</h2>
+        <!-- stack the columns on mobile by making one full-width and the other half width -->
+        <p>1st example</p>
+        <div class="row">
+          <div class="col-md-8">
+            <div class="box text-center">.col-md-8</div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="box text-center">.col-6 .col-md-4</div>
+          </div>
+        </div>
+        <!-- columns start at 50% wide on mobile and bump up at 33.3% wide on desktop -->
+        <p>2nd example</p>
+        <div class="row">
+          <div class="col-6 col-md-4">
+            <div class="box text-center">.col-6 .col-md-4</div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="box text-center">.col-6 .col-md-4</div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="box text-center">.col-6 .col-md-4</div>
+          </div>
+        </div>
+        <!-- columns are always 50% wide, on mobile and desktop -->
+        <p>3rd example</p>
+        <div class="row">
+          <div class="col-6">
+            <div class="box text-center">.col-6</div>
+          </div>
+          <div class="col-6">
+            <div class="box text-center">.col-6</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- mix and match end -->
+
+    <!-- gutters start -->
+    <section>
+      <div class="container">
+        <h2 class="h2 text-center text-warning">Gutters</h2>
+        <div class="row mx-lg-5">
+          <div class="col py-3 px-lg-5 border bg-light">Custom column padding</div>
+          <div class="col py-3 px-lg-5 border bg-light">Custom column padding</div>
+        </div>
+      </div>
+    </section>
+    <!-- gutters end -->
+
+    <!-- row columns start -->
+    <section>
+      <div class="container">
+        <h2 class="h2 text-center text-secondary">Row columns</h2>
+        <p>use the responsibe (.row-cols-*) classes to quickly set the number of columns that best render your content and layout</p>
+        <p>1st example</p>
+        <div class="row row-cols-2">
+          <div class="col"><div class="box text-center">column <br> .row-cols-2</div></div>
+          <div class="col"><div class="box text-center">column <br> .row-cols-2</div></div>
+          <div class="col"><div class="box text-center">column <br> .row-cols-2</div></div>
+          <div class="col"><div class="box text-center">column <br> .row-cols-2</div></div>
+        </div>
+        <p>2nd example</p>
+        <div class="row row-cols-3">
+          <div class="col"><div class="box text-center">column <br> .row-cols-3</div></div>
+          <div class="col"><div class="box text-center">column <br> .row-cols-3</div></div>
+          <div class="col"><div class="box text-center">column <br> .row-cols-3</div></div>
+          <div class="col"><div class="box text-center">column <br> .row-cols-3</div></div>
+        </div>
+        <p>3rd example</p>
+        <div class="row row-cols-4">
+          <div class="col"><div class="box text-center">Column <br> .row-cols-4</div></div>
+          <div class="col"><div class="box text-center">Column <br> .row-cols-4</div></div>
+          <div class="col-6"><div class="box text-center">Column-(.col-6) <br> .row-cols-4</div></div>
+          <div class="col"><div class="box text-center">Column <br> .row-cols-4</div></div>
+        </div>
+        <p>4th example(responsive)</p>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+          <div class="col"><div class="box text-center">Column <br> .row-cols-1 <br> .row-cols-sm-2 <br> .row-cols-md-4</div></div>
+          <div class="col"><div class="box text-center">Column <br> .row-cols-1 <br> .row-cols-sm-2 <br> .row-cols-md-4</div></div>
+          <div class="col"><div class="box text-center">Column <br> .row-cols-1 <br> .row-cols-sm-2 <br> .row-cols-md-4</div></div>
+          <div class="col"><div class="box text-center">Column <br> .row-cols-1 <br> .row-cols-sm-2 <br> .row-cols-md-4</div></div>
+        </div>
+      </div>
+    </section>
+    <!-- row columns end -->
+    <!-- responsive classes end -->
+
+    <!-- Alignment start -->
+    <section>
+      <div class="container">
+        <h1 class="h1 text-center text-primary">Alignment</h1>
+      </div>
+    </section>
+    <!-- vertical alignment start -->
+    <section>
+      <div class="container">
+        <h2 class="h2 text-center text-danger">vertical alignment</h2>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <!-- (align-items-start) start-->
+        <p class="mb-0">.align-items-start</p>
+        <div class="row align-items-start mb-3 c_row">
+          <div class="col"><div class="box text-center">One of three columns</div></div>
+          <div class="col"><div class="box text-center">One of three columns</div></div>
+          <div class="col"><div class="box text-center">One of three columns</div></div>
+        </div>
+        <!-- (align-items-start) end-->
+
+        <!-- (align-items-center) start-->
+        <p class="mb-0">.align-items-center</p>
+        <div class="row align-items-center mb-3 c_row">
+          <div class="col"><div class="box text-center">One of three columns</div></div>
+          <div class="col"><div class="box text-center">One of three columns</div></div>
+          <div class="col"><div class="box text-center">One of three columns</div></div>
+        </div>
+        <!-- (align-items-center) end-->
+
+        <!-- (align-items-end) start-->
+        <p class="mb-0">.align-items-end</p>
+        <div class="row align-items-end mb-3 c_row">
+          <div class="col"><div class="box text-center">One of three columns</div></div>
+          <div class="col"><div class="box text-center">One of three columns</div></div>
+          <div class="col"><div class="box text-center">One of three columns</div></div>
+        </div>
+        <!-- (align-items-end) end-->
+
+        <!-- (align-self-start,center,end) start-->
+        <p class="mb-0">.align-self-start,center,end</p>
+        <div class="row mb-3 c_row">
+          <div class="col align-self-start"><div class="box text-center">One of three columns</div></div>
+          <div class="col align-self-center"><div class="box text-center">One of three columns</div></div>
+          <div class="col align-self-end"><div class="box text-center">One of three columns</div></div>
+        </div>
+        <!-- (align-self-start,center,end) end-->
+      </div>
+    </section>
+    <!-- vertical alignment end -->
+
+    <!-- horizontal alignment start -->
+    <section>
+      <div class="container">
+        <h2 class="h2 text-center text-danger">Horizontal alignment</h2>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <p class="mb-0">.justify-content-start</p>
+        <div class="row justify-content-start c_row">
+          <div class="col-4"><div class="box text-center">One of two column</div></div>
+          <div class="col-4"><div class="box text-center">One of two column</div></div>
+        </div>
+        <p class="mb-0">.justify-content-center</p>
+        <div class="row justify-content-center c_row">
+          <div class="col-4"><div class="box text-center">One of two column</div></div>
+          <div class="col-4"><div class="box text-center">One of two column</div></div>
+        </div>
+        <p class="mb-0">.justify-content-end</p>
+        <div class="row justify-content-end c_row">
+          <div class="col-4"><div class="box text-center">One of two column</div></div>
+          <div class="col-4"><div class="box text-center">One of two column</div></div>
+        </div>
+        <p class="mb-0">.justify-content-around</p>
+        <div class="row justify-content-around c_row">
+          <div class="col-4"><div class="box text-center">One of two column</div></div>
+          <div class="col-4"><div class="box text-center">One of two column</div></div>
+        </div>
+        <p class="mb-0">.justify-content-between</p>
+        <div class="row justify-content-between c_row">
+          <div class="col-4"><div class="box text-center">One of two column</div></div>
+          <div class="col-4"><div class="box text-center">One of two column</div></div>
+        </div>
+      </div>
+    </section>
+    <!-- horizontal alignment end -->
+    <!-- Alignment end -->
+
+    <!-- no gutter start -->
+    <section>
+      <div class="container">
+        <h1 class="h1 text-center text-primary">No gutters</h1>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <p>.no-gutters</p>
+        <div class="row no-gutters">
+          <div class="col-sm-6 col-md-8"><div class="box box_m text-center">.col-sm-6 .col-md-8</div></div>
+          <div class="col-sm-6 col-md-8"><div class="box box_m text-center">.col-sm-6 .col-md-8</div></div>
+        </div>
+      </div>
+    </section>
+    <!-- no gutter end -->
+
+    <!-- column wrapping start -->
+    <section>
+      <div class="container">
+        <h1 class="h1 text-center text-primary">Column Wrapping</h1>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-9"><div class="box text-center">.col-9</div></div>
+          <div class="col-4">
+            <div class="box text-center">.col-4 <br>
+              Since 9 + 4 = 13 (>12), this 4-column-wide div gets wrapped onto a new line as one contiguous unit.
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="box text-center">
+              .col-6 <br>Subsequent columns continue along the line.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- column wrapping end -->
+
+    <!-- column breaks start -->
+    <section>
+      <div class="container">
+        <h1 class="text-center text-primary">Column breaks</h1>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <p>Example-1</p>
+        <div class="row">
+          <div class="col-6 col-sm-3"><div class="box text-center">.col-6 .col-sm-3</div></div>
+          <div class="col-6 col-sm-3"><div class="box text-center">.col-6 .col-sm-3</div></div>
+
+          <!-- Force next columns to break to new line -->
+          <div class="w-100"></div>
+
+          <div class="col-6 col-sm-3"><div class="box text-center">.col-6 .col-sm-3</div></div>
+          <div class="col-6 col-sm-3"><div class="box text-center">.col-6 .col-sm-3</div></div>
+        </div>
+        <p>Example-2</p>
+        <div class="row">
+          <div class="col-6 col-sm-4"><div class="box text-center">.col-6 .col-sm-3</div></div>
+          <div class="col-6 col-sm-4"><div class="box text-center">.col-6 .col-sm-3</div></div>
+
+          <!-- Force next columns to break to new line -->
+          <div class="w-100 d-none d-md-block"></div>
+
+          <div class="col-6 col-sm-4"><div class="box text-center">.col-6 .col-sm-3</div></div>
+          <div class="col-6 col-sm-4"><div class="box text-center">.col-6 .col-sm-3</div></div>
+        </div>
+      </div>
+    </section>
+    <!-- column breaks end -->
+
+    <!-- order classes start -->
+    <section>
+      <div class="container">
+        <h1 class="text-center text-success">Order classes</h1>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <p>Example-1</p>
+        <div class="row">
+          <div class="col">
+            <div class="box text-center">First in DOM, no order applied</div>
+          </div>
+          <div class="col order-12">
+            <div class="box text-center">Second in DOM, with a larger order</div>
+          </div>
+          <div class="col order-1">
+            <div class="box text-center">Third in DOM, with an order of 1</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- order classes end -->
+
+
+    <!-- JS links -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
