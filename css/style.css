@@ -1,0 +1,12 @@
+.box{
+	min-height: 100px;
+	background-color: #CF96FF;
+	margin-bottom: 5px;
+}
+.box_m{
+	margin-bottom: 0px;
+}
+.c_row{
+	min-height: 400px;
+	background-color: #85929E;
+}
